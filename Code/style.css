@@ -1,0 +1,176 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  
+
+}
+
+body{
+  background: #000;
+  overflow-x: hidden;
+  height: 800px;
+
+}
+
+canvas{
+ position:relative;
+ width: 100vw;
+ bottom: 200px;
+ z-index: -1;
+ 
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: white;
+ 
+  
+}
+
+::-webkit-scrollbar-thumb{
+  background: #00ff41;
+  background: grey;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #008f41;
+}
+
+
+.header{
+  
+  background-color: white;
+  color: black;
+  border-left: 7px solid #7CFC00;
+ 
+  /* box-shadow: 5px 5px 18px #7CFC00; */
+  
+  
+}
+
+.headerTxtDiv{
+  
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 4px;
+}
+
+.terminalImg{
+  display: inline-block;
+  position:relative;
+  top: 1px;
+}
+
+.gitImage{
+  position:relative;
+  left: 85vw;
+  top: 2px;
+}
+
+
+.apresentationDiv{
+  background-color: rgba(33, 33, 33, 50%);
+  margin-top: 20px;
+  border: 2px solid white;
+  width: 100%;
+  height: 190px;
+  border-radius: 30px;
+}
+
+.aprTxt{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+.aprSecondTxt{
+  color: grey;
+  line-height: 1px;
+
+}
+
+.searchBar{
+    position:relative;
+
+    background-color: transparent;
+    border: 2px solid #7CFC00;
+    width: 30%;
+    left: 35%;
+ 
+ 
+}
+
+.sections{
+  z-index: -2;
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sections{
+  margin-top: 30px;
+  border: 2px solid white;
+  background-color: transparent;
+  height: 880px;
+}
+
+.minorSections{
+  display: inline-grid;
+  position:relative;
+  bottom: 100vh;
+  color: white;
+  margin: 2%;
+  border: 2px solid #7CFC00;
+  box-shadow: 5px 10px #7CFC00;
+  width: 20%;
+  height: 300px;
+  margin-left: 2.5%;
+  overflow: auto;
+ 
+}
+
+.aSectionTxt, .bSectionTxt, .cSectionTxt, .dSectionTxt{
+  display: inline-grid;
+  text-align: center;
+  overflow: auto;
+ 
+  
+}
+.h7-Terminal{
+  text-align: left;
+  color: plum;
+}
+
+.p-Terminal{
+  color: white;
+}
+
+.exSpan{
+  position: static;
+  bottom: 40px;
+  color: orange;
+}
+
+.spanTerminal{
+  position:static;
+  bottom: 90px;
+}
+
+.spanTermDesc{
+  text-align: left;
+}
+
+.terminalCommand{
+  color: lightgreen;
+}
+
+.terminalParam{
+  color: lightblue;
+}
+
+.terminalTxt{
+  color:beige;
+}

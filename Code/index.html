@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="..//Images/terminal.png" type="image/x-icon">
+  <title>Terminal Doc</title>
+</head>
+<body>
+
+  <!--Header Div Init-->
+  <div class="header">
+
+    <!--Header Text-->
+    <div class="headerTxtDiv">
+      <!--The Actual Text of the Div-->
+      <p class="headerTxt"> <strong>Terminal</strong> Doc.</p> 
+    
+    </div>
+
+     <!--Terminal Image in the Header-->
+      <img src="../Images/terminal.png" alt="" width="50vw" class="terminalImg">
+
+      <!--GitHub Icon Image in the Header-->
+      <a href="https://github.com/ChristoferMendes" target="_blank">
+        
+        <img src="../Images/githubIcon.png" alt="" srcset="" width="50vw" class="gitImage">
+
+      </a>
+     
+  </div>
+
+  <!--Apresentation (Description) of the Site Div-->
+  <div class="apresentationDiv">
+    
+    <!--First Text-->
+    <p class="aprTxt aprFirstTxt">Documentation</p>
+    <!--Description -->
+    <p class="aprTxt aprSecondTxt">All that I've being learning about commands lines in terminal! (Work in progress)</p>
+    <!--"Search" bar-->
+    <input type="text" class="searchBar" placeholder="Search" style="color: white;">
+    
+  </div>
+
+  <!--Div for the Sections Below the Description-->
+  <div class="sections">
+
+    
+    <!--First 4 Boxes Div-->
+    <div class="middleDiv">
+
+      <!--Matrix Canvas-->
+      <canvas>
+  
+      </canvas>
+
+
+
+   <!--Div with all the Text's-->
+   <div class="SectionOne">
+    <!--Texts-->
+
+
+    <h7 class="minorSections aSectionTxt">
+      pwd &rarr; Print Work Directory  <br> <br>
+
+      Print in your cmd your absolut directory 
+
+    </h7>
+
+    <!--CD TEXT EXPLANATION-->
+
+    <h7 class="minorSections bSectionTxt">
+      cd &rarr; Change Directory <br> <br>
+
+      Change the current directory by placing (or not)
+      the name of the directory. <br><br>
+     
+      <h7 style="color: orange;">Examples:</h7> <br>
+
+      <h7>1st</h7>
+      <h7 class="h7-Terminal h7-cdTerminal">
+
+        -------TERMINAL--------------------------------<br>
+        <span class="terminalCommand">cd</span>  
+        <span class="terminalTxt">workspace</span> <br>
+        -------TERMINAL--------------------------------<br>
+
+        <p class="p-Terminal p-cdTerminal"> 
+          &bull;This one will enter in the 'workspace' directory
+        </p>
+
+  
+        </h7> <!--h7 1° example-->
+    <h7>2nd</h7>
+    <h7 class="h7-Terminal h7-cdTerminal" >
+      -------TERMINAL--------------------------------<br>
+      <span class="terminalCommand">cd</span>  
+      <span class="terminalTxt">../</span> <br>
+      -------TERMINAL--------------------------------<br>
+
+      <p class="p-Terminal p-cdTerminal">
+        &bull;This one will leave the current directory
+      </p>
+
+    </h7>
+
+    <h7>3rd</h7>
+    <h7 class="h7-Terminal h7-cdTerminal">
+
+      -------TERMINAL--------------------------------<br>
+      <span class="terminalCommand">cd</span>  
+      <span class="terminalTxt">~</span> <br>
+      -------TERMINAL--------------------------------<br>
+
+      <p class="p-Terminal p-cdTerminal">
+        &bull;This one will go back to the very first main
+         directory</p>
+    </h7>
+
+
+    </h7>
+<!--CD TEXT EXPLANATION-->
+
+    <h7 class="minorSections cSectionTxt">
+      ls &rarr; list <br> <br>
+
+      List the archives in the current directory
+
+      <h7 style="color: orange;">Examples:</h7> <br><br>
+
+      <span style="text-align: left; margin-top: -100px;">
+        <ul>
+          <li>-l &rarr; more info</li>
+          <li>-a &rarr; all archives</li>
+          <li>-h &rarr; human friendly</li>
+          <li>-R &rarr; Recursive order</li>
+          <li>-S &rarr; Size order</li>
+        </ul>
+      </span>
+
+
+    </h7>
+
+
+    <h7 class="minorSections dSectionTxt">
+      <h7>mkdir &rarr; Make Directory</h7> <br>
+      
+      <h7>
+        Make a directory from scrach, being able to create one 
+        inside another
+      </h7> <br>
+
+      <h7 class="h7-Terminal">
+        -------TERMINAL--------------------------------<br>
+        <span class="terminalCommand">mkDir</span>  
+        <span class="terminalTxt">Morpheus</span> <br>
+        -------TERMINAL--------------------------------<br>
+
+        <p class="p-Terminal">
+          &bull; This command will create a directory named 'Morpheus'
+        </p>
+
+        <h7 class="h7-Terminal">
+          -------TERMINAL--------------------------------<br>
+          <span class="terminalCommand">cd</span>  
+          <span class="terminalParam">-p</span>
+          <span class="terminalTxt">Morpheus/Matrix</span> <br>
+          -------TERMINAL-------------------------------- <br>
+
+          <p class="p-Terminal">
+            &bull; This one with -p (parent) will create a directory inside 'Matrix' 
+            named 'Morpheus'
+          </p>
+
+        </h7>
+
+      </h7>
+    </h7>
+  
+  </h7>
+</div>
+
+ <!--First 4 Boxes Div-->
+
+
+<section id="target1"></section>
+<section id="target2"></section>
+
+<!--Template for the boxes-->
+<script type="text/html">
+
+  <div class="SectionTwo">
+    <p class="minorSections aSectionTxt">
+
+   touch <br> <br>
+   
+    &bull; Change hour/date registry of an archive<br>
+   &bull; Create a file (ex: test.txt)
+
+    </p>
+    <p class="minorSections bSectionTxt">
+      mv &rarr; Move <br> <br>
+      Move or rename an archive <br><br>
+
+    <span class="exSpan">Examples:</span> <br>
+
+                  1st
+    <span class="h7-Terminal spanTerminal">
+      --TERMINAL--------------------------------<br>
+      <span class="terminalCommand">
+        mv
+      </span> 
+      <span class="terminalParam">
+        -r
+      </span> 
+      site1 site2 Sites
+      <br>
+      --TERMINAL--------------------------------<br>
+    </span> <br>
+
+    <span class="spanTermDesc">
+      &bull; This command moves site1 and site2 directories to the Sites 
+      directory
+    </span> <br>
+
+                     2nd
+     <span class="h7-Terminal spanTerminal"> 
+      -------TERMINAL--------------------------------<br>
+      <span class="terminalCommand">mv</span>
+      <span class="terminalTxt">text.txt newArchive.txt</span>  <br>
+      -------TERMINAL--------------------------------<br>
+     </span> <br>
+
+     <span class="spanTermDesc">
+      &bull; This one rename the text.txt file to newArchive.txt
+     </span>
+   
+    </p>
+    <p class="minorSections cSectionTxt">
+      cp &rarr; Copy <br> <br>
+
+      Copy all the content passed to the last argument <br> <br>
+
+    <span class="exSpan">Examples:</span> <br>
+
+                  1st
+    <span class="h7-Terminal">
+      -------TERMINAL--------------------------------<br>
+      <span class="terminalCommand">cp</span> 
+      <span class="terminalTxt">
+        newArchive.txt redPillDoc.txt
+      </span> <br>
+      -------TERMINAL--------------------------------<br>      
+    </span> <br>
+
+    <span class="spanTermDesc">
+      &bull; This one will copy the content of newArchive.txt
+      to redPillDoc.txt
+     </span> <br>
+
+                        2nd
+    <span class="h7-Terminal">
+      -------TERMINAL--------------------------------<br>
+      <span class="terminalCommand">cp</span> 
+      <span class="terminalParam">-r</span>
+      <span class="terminalTxt">
+        Neo Trinity Smith Matrix
+      </span> <br>
+      -------TERMINAL--------------------------------<br>
+
+
+    </span> <br>
+    
+    <span class="spanTermDesc">
+      &bull; This command will copy the directories <br> &rarr; Neo, Trinity
+      and Smith to the Matrix directory
+     </span> <br>
+            
+    </p>
+    <p class="minorSections dSectionTxt">
+      rm &rarr; Remove <br> <br>
+      This command will delete an archive <br> 
+      <span class="exSpan">Examples:</span> <br>
+      
+                1st
+      <span class="h7-Terminal">
+        -------TERMINAL--------------------------------<br>
+        <span class="terminalCommand">rm</span> 
+        <span class="terminalParam"></span>
+        <span class="terminalTxt">
+          redPillDoc.txt
+        </span> <br>
+        -------TERMINAL--------------------------------<br>
+
+      </span> <br>
+      <span class="spanTermDesc">
+        &bull; This one will remove (delete) the redPillDoc.txt
+       </span> <br>
+
+                         2nd
+      <span class="h7-Terminal">
+        -------TERMINAL--------------------------------<br>
+        <span class="terminalCommand">rm</span> 
+        <span class="terminalParam">-rf</span>
+        <span class="terminalTxt">
+          Matrix
+        </span> <br>
+        -------TERMINAL--------------------------------<br>
+
+      </span> <br>
+      <span class="spanTermDesc">
+        &bull; To remove a directory, it need an -r (-rf to force)
+       </span> <br>
+
+
+    </p>
+  </div>
+
+  <!-- <div class="SectionOne">
+    <p class="minorSections aSectionTxt">s</p>
+    <p class="minorSections bSectionTxt">I'm c</p>
+    <p class="minorSections cSectionTxt">With s</p>
+    <p class="minorSections dSectionTxt">no</p>
+
+  </div> -->
+
+  
+ 
+
+</script>
+
+
+     
+
+    </div>
+    
+      
+      </div>
+    
+
+  
+
+
+  
+
+  <script src="script.js"></script>
+  <script src="matrix.js"></script>
+
+</body>
+</html>

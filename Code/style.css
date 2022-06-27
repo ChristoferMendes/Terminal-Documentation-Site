@@ -51,7 +51,6 @@ canvas{
 }
 
 .headerTxtDiv{
-  
   display: inline-block;
   vertical-align: top;
   margin-left: 4px;
@@ -183,30 +182,3 @@ canvas{
   from, to{border-color: transparent }
   50% {border-color: orange}
 } */
-
-
-.txtAnim{
-  
-  visibility: hidden;
-  white-space: nowrap;
-  overflow-x: hidden;
-
-
-}
-
-.txtAnim:hover{
-  visibility: visible;
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-  blinkTextCursor 500ms steps(44) infinite normal;
-}
-
-
-
-
-/* Animation */
-
-
-@keyframes typewriter{
-  from{width: 0; opacity: 0;}
-  to{width: 100%; opacity: 100%;}
-}
